@@ -36,7 +36,7 @@ python index_dataset.py
 This will generate ```indexed_[split]_picos.json``` and ```indexed_[split]_ctxs.json``` for each split.
 
 # Pre-training Data
-First, download and ungunzip all the PubMed baseline splits [here](ftp://ftp.ncbi.nlm.nih.gov/pubmed/baseline/). Run:
+First, download and ungunzip all the PubMed baseline splits at <ftp://ftp.ncbi.nlm.nih.gov/pubmed/baseline/>. Run:
 ```bash
 cd pretraining_dataset
 python preprocess_pubmed_splits.py
